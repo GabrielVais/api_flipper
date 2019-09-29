@@ -1,0 +1,117 @@
+*{
+	
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Oxygen', sans-serif;
+
+
+}
+
+html, body{
+	
+	height:100%;
+	-webkit-font-smoothing: antialiased;
+
+
+}
+
+body{
+
+	background:#f4f8fb;
+}
+
+
+header{
+	
+	margin-top:3%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+
+
+
+}
+
+
+header .title{
+		
+
+
+}
+
+header .title h1{
+
+	font-size:35px;
+	font-weight:bold;
+	color:#2c2c54;
+
+
+
+}
+
+header .title hr{
+
+	border:1px solid #000;
+}
+
+.container{
+	
+	display:flex;
+	flex-direction:column;
+	margin:auto;
+	width: 70%;
+	background:#FFFF;
+	height:500px;
+	border:3px solid #FFF1;
+	margin-top:30px;
+	border-radius:10px;
+	-webkit-box-shadow: 5px 9px 15px -12px #000000; 
+	box-shadow: 5px 9px 15px -12px #000000;
+
+}
+
+.container form{
+
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+.container h1{
+
+	text-align:center;
+	color:#40407a;
+	font-size:40px;
+}
+
+.container .selectBox{
+
+	margin-top:40px;
+	width:80%;
+	border-radius:5px;
+	font-size:20px;
+	overflow:hidden; 
+	color:#FFF;
+	background:#40407a;	
+	height:40px;
+	text-align-last:center;
+
+}
+
+select::-ms-expand {display: none;}
+
+.container .selectBox select{
+
+	text-align:center;
+}
+
+#vehicles{
+
+	display:none;
+}
+
+#year{
+
+	display:none;
+}
